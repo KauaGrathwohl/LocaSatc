@@ -1,0 +1,9 @@
+@import "./css/fonts.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Montserrat", sans-serif;
+  @apply bg-[url("../public/svg/background.svg")] bg-fixed bg-cover bg-no-repeat bg-center;
+}
