@@ -13,7 +13,7 @@
 ## Modelo Físico:
 - Utilizado https://dbdiagram.io/
 - Arquivo fonte: [link pro arquivo](https://dbdiagram.io/d/656b85c156d8064ca041bfba)
-- 
+- Imagem do modelo fisico html: 
 
 ### Dicionário de Dados:
 - Acesso em: https://docs.google.com/spreadsheets/d/1-ATgRP6IC8V9SxPhllw2GJKgZDUsRf72ziRLFlIQ0zE/edit#gid=35992646
