@@ -17,7 +17,7 @@
   <img src="https://raw.githubusercontent.com/KauaGrathwohl/LocaSatc/main/modelo%20fisico.png" />
 
 ### Dicionário de Dados:
-- Acesso em: https://docs.google.com/spreadsheets/d/1-ATgRP6IC8V9SxPhllw2GJKgZDUsRf72ziRLFlIQ0zE/edit#gid=35992646
+- Acesso em: https://docs.google.com/spreadsheets/d/1vl9dsW2ceU4IAK8tLs6tf-4GHPYdwFXefB6Mn9WZflU/edit#gid=449515615
 ### Excel ou tabela do Github (markdown)
 
 - Scripts DDL Criação do Database:
