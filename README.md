@@ -25,8 +25,9 @@ Para esse projeto foi utilizado o banco de dados [MySQL](https://www.mysql.com/)
 <br></br>
 Scripts SQL separados por tipo:
 - [DDL](https://github.com/KauaGrathwohl/LocaSatc/blob/main/scripts/DDL.sql)
-- índice
-- DML
+- [DML](https://github.com/KauaGrathwohl/LocaSatc/blob/main/scripts/DML.sql)
+- [(ou os dois juntos)](https://github.com/KauaGrathwohl/LocaSatc/blob/main/scripts/locasatc.sql)
+- Índice
 - Trigger
 - Procedures
 - Functions
