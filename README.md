@@ -24,7 +24,7 @@ As informações sobre as tabelas e índices foram documentados na planilha: ([D
 Para esse projeto foi utilizado o banco de dados [MySQL](https://www.mysql.com/).
 <br></br>
 Scripts SQL separados por tipo:
-- DDL
+- [DDL](https://github.com/KauaGrathwohl/LocaSatc/blob/main/scripts/DDL.sql)
 - índice
 - DML
 - Trigger
