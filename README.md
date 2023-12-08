@@ -1,4 +1,4 @@
-# Sistema de Aluguel de imóveis
+# LocaSatc - Sistema de Aluguel de imóveis
 
 ## Grupo A
 
