@@ -2,7 +2,6 @@ CREATE TABLE IF NOT EXISTS `contratos` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `status` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
   `imovel` int(11) NOT NULL,
-  `proprietario` int(11) NOT NULL,
   `locatario` int(11) NOT NULL,
   `corretor` int(11) NOT NULL,
   `unidade` int(11) NOT NULL,
