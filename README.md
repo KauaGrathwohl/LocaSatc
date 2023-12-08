@@ -37,7 +37,7 @@ Scripts SQL separados por tipo:
 - Linguagem de marcação de texto - HTML
 - Linguagem de estilização - CSS
 <br></br>
-[Código fonte](https://github.com/KauaGrathwohl/LocaSatc/tree/main/frontend-backend)]
+[Código fonte](https://github.com/KauaGrathwohl/LocaSatc/tree/main/frontend-backend)
 
 ## Apresentação:
 - Para acessar a apresentação do trabalho: ([Apresentação](https://www.canva.com/design/DAF1HvnJg9Q/yDcqhBBDRhNuoZ3HeRukhQ/edit?utm_content=DAF1HvnJg9Q&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)).
