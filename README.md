@@ -15,7 +15,7 @@ Utilizada a ferramento de modelagem de dados https://dbdiagram.io/ para a criaç
 <br></br>
 Arquivo fonte: ([Modelo Físico](https://dbdiagram.io/d/656b85c156d8064ca041bfba)).
 <br></br>
-<img src="https://raw.githubusercontent.com/KauaGrathwohl/LocaSatc/main/modelo%20fisico.png" />
+<img src="https://github.com/KauaGrathwohl/LocaSatc/blob/main/modelo_fisico.png" />
 
 ### Dicionário de Dados
 As informações sobre as tabelas e índices foram documentados na planilha: ([Dicionário](https://docs.google.com/spreadsheets/d/1vl9dsW2ceU4IAK8tLs6tf-4GHPYdwFXefB6Mn9WZflU/edit?usp=sharing)).
