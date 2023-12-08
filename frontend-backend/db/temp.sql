@@ -1,0 +1,6 @@
+-- Utilize este arquivo para pequenos trechos temporários de código que precisam ser executados no banco de dados
+-- online por exemplo, você está criando novos campos em uma tabela que já existe no "ar" mas por enquanto está
+-- criando esses campos apenas em sua máquina até ter certeza de que fez o "certo", no momento que concluir a
+-- alteração terá que executar esses comandos SQL anotados aqui para deixar a tabela "online" igual a nova versão
+-- feita em sua máquina de trabalho. Fora isso não se esqueça de também exportar o arquivo .sql oficial com a nova
+-- versão do banco do projeto sempre contendo todas as alterações e novas tabelas em cada commit.

@@ -1,0 +1,31 @@
+{
+  "name": "locasatc/satc",
+  "type": "project",
+  "require": {
+    "php": "^5.6|^7",
+    "cakephp/cakephp": "2.10.*",
+    "cakephp/debug_kit": "^2.2.0",
+    "james-heinrich/phpthumb": "^1.7",
+    "mobiledetect/mobiledetectlib": "^2.8"
+  },
+  "config": {
+    "vendor-dir": "Vendor/",
+    "optimize-autoloader": true,
+    "sort-packages": true,
+    "allow-plugins": {
+      "composer/installers": true
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "."
+    },
+    "files": [
+      "Config/util.php",
+      "Controller/Component/ReCaptcha/ReCaptcha.php",
+      "Controller/Component/Thumbhash/Thumbhash.php"
+    ]
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

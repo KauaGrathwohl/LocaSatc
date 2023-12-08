@@ -1,0 +1,33 @@
+# este é o principal arquivo .htaccess do projeto
+# ele conterá as regras mais importantes de configuração do projeto
+# em relação ao servidor WEB do tipo Apache. Aqui normalmente temos
+# configurações e regras relacionadas as URLs do site que todas
+# deverão ser redirecionadas para o arquivo index.php do CakePHP
+# para tratamento. Outras regras nesse arquivo dizem respeito a
+# cache e compactação de arquivos estáticos como imagens, CSS e JS.
+# também teremos algumas regras customizadas tipo uma regra espececífica
+# para o funcionamento do PHPTHUMB sistema que usamos para redimensionar
+# imagens em tempo real via PHP.
+
+# vale observar que se não estivermos usando Apache no servidor de deploy
+# essas regras não terão efeito algum e deverão ser configuradas de outra
+# forma no servidor WEB que estivermos usando, por exemplo o servidor do tipo
+# NGINX recebe esse tipo de configuração direto na pasta do servidor (e não do projeto)
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    #rule for thumbnail generator...
+    RewriteRule    image/(.*)\.[a-zA-Z]{2,4}$ thumb.php?$1 [QSA,L]
+
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+</IfModule>
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE application/atom+xml application/javascript application/json application/ld+json application/rss+xml application/vnd.ms-fontobject application/x-font-ttf application/x-web-app-manifest+json application/xhtml+xml application/xml font/opentype image/svg+xml image/x-icon text/css text/html text/plain text/x-component text/xml
+</IfModule>
+
+AddType application/javascript .js
+AddType text/css .css

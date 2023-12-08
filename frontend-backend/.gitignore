@@ -1,0 +1,101 @@
+# node
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# CakePHP 2
+
+composer.phar
+/tmp/curriculos/*
+/tmp/logs/*.log
+!/tmp/logs/.gitkeep
+/tmp/sessions/*
+!/tmp/sessions/.gitkeep
+/tmp/tests/*
+!/tmp/tests/.gitkeep
+/tmp/data/*
+!/tmp/data/.gitkeep
+/tmp/cache/facebook/*
+/tmp/cache/models/*
+!/tmp/cache/models/.gitkeep
+/tmp/cache/persistent/*
+!/tmp/cache/persistent/.gitkeep
+/tmp/cache/phpthumb/*
+!/tmp/cache/phpthumb/.gitkeep
+/tmp/cache/view/*
+!/tmp/cache/view/.gitkeep
+/tmp/cache/temp/*
+!/tmp/cache/temp/.gitkeep
+/Plugin/DebugKit
+/Vendor/*
+/webroot/files/_thumbs
+/webroot/files/flash
+/webroot/files/files/*
+!/webroot/files/files/.gitkeep
+/webroot/files/images/*
+!/webroot/files/images/.gitkeep
+/webroot/files/media/*
+!/webroot/files/media/.gitkeep
+
+# Commit your application's lock file https://getcomposer.org/doc/01-basic-usage.md#commit-your-composer-lock-file-to-version-control
+# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
+# composer.lock
+
+# Apple
+
+.DS_Store
+**/.DS_Store

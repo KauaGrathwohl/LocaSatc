@@ -1,0 +1,25 @@
+.paging {
+  @apply text-center text-sm leading-tight xl:text-base;
+  @apply my-3 space-x-1.5 p-1.5 xl:my-5 xl:space-y-2;
+
+  .disabled,
+  .current,
+  a {
+    @apply inline-block rounded-md bg-gray text-black;
+    @apply my-1.5 px-2 py-1;
+  }
+
+  .prev > a,
+  .next > a {
+    @apply px-3;
+  }
+
+  .current,
+  a:hover {
+    @apply bg-primary text-white;
+  }
+
+  .disabled {
+    @apply cursor-default text-opacity-50;
+  }
+}

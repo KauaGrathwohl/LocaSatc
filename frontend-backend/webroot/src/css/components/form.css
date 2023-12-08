@@ -1,0 +1,78 @@
+.btn {
+  @apply cursor-pointer bg-gray font-bold uppercase hover:bg-black hover:text-white lg:text-lg;
+  @apply px-6 py-2.5 lg:px-8 lg:py-3.5;
+
+  &-primary {
+    @apply bg-primary text-white;
+  }
+
+  &.disabled {
+    @apply cursor-default bg-gray text-white opacity-80;
+  }
+}
+
+.ui-form {
+  [type="text"],
+  [type="email"],
+  [type="url"],
+  [type="password"],
+  [type="number"],
+  [type="date"],
+  [type="datetime-local"],
+  [type="month"],
+  [type="search"],
+  [type="tel"],
+  [type="time"],
+  [type="file"],
+  [type="week"],
+  [multiple],
+  textarea,
+  select {
+    @apply block w-full border-transparent bg-white text-black focus:border-gray focus:bg-white focus:ring-0;
+    @apply lg:px-4 lg:py-3;
+
+    &::placeholder {
+      @apply font-semibold text-black;
+    }
+  }
+
+  select {
+    @apply font-semibold;
+  }
+
+  .input {
+    @apply mb-3.5 xl:mb-5;
+
+    > label {
+      @apply mb-2 block font-semibold;
+    }
+
+    .help-block {
+      @apply mt-1 inline-block text-xs italic lg:text-sm;
+    }
+
+    &.has-error {
+      .help-block {
+        @apply text-danger;
+      }
+      [type="text"],
+      [type="email"],
+      [type="url"],
+      [type="password"],
+      [type="number"],
+      [type="date"],
+      [type="datetime-local"],
+      [type="month"],
+      [type="search"],
+      [type="tel"],
+      [type="time"],
+      [type="file"],
+      [type="week"],
+      [multiple],
+      textarea,
+      select {
+        border: 1px solid theme("colors.danger");
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.list-links label:hover {
+  color: #c00;
+}
+.list-sublinks {
+  margin-left: 12px;
+}
+.list-sublinks label {
+  font-weight: normal !important;
+}
+
+#formLogin {
+  width: 326px;
+  margin: 0 auto 64px;
+}
+#formLogin h3 {
+  vertical-align: middle;
+  margin-bottom: 12px;
+}
+#formLogin .row-button {
+  padding-top: 9px;
+}
+
+#logo {
+  margin: 32px auto;
+  width: 320px;
+}
+
+#cmanager.admin_login {
+  #flashMessage,
+  #authMessage {
+    margin-top: 32px;
+  }
+}

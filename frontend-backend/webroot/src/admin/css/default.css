@@ -1,0 +1,408 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.turbolinks-progress-bar {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 4px;
+  background: #c00;
+  z-index: 9999;
+  transition: width 300ms ease-out, opacity 150ms 150ms ease-in;
+  transform: translate3d(0, 0, 0);
+}
+
+#activity {
+  position: absolute;
+  position: fixed !important;
+  top: 50%;
+  left: 50%;
+  margin-top: -40px;
+  margin-left: -40px;
+  width: 80px;
+  height: 80px;
+  background: url("../../img/indicator-gray.gif") no-repeat center center;
+  background-color: #333;
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 14px;
+  text-indent: -1000em;
+  overflow: hidden;
+  z-index: 1000;
+}
+#activity.disabled {
+  display: none;
+  visibility: hidden;
+}
+
+body {
+  padding: 0 0 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+a[disabled] {
+  cursor: default !important;
+  color: #9a9a9a !important;
+
+  &:hover {
+    background-color: transparent !important;
+  }
+}
+
+.dropdown-header {
+  cursor: default;
+}
+
+.nav,
+.pagination,
+.carousel,
+.panel-title a {
+  cursor: pointer;
+}
+
+.navbar-blue {
+  background: #337ab7;
+  border-color: #2e6ea5;
+  margin-bottom: 0;
+}
+
+.navbar-inverse .navbar-toggle,
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: #2e6ea5;
+}
+
+.navbar-blue .navbar-text,
+.navbar-blue .navbar-brand,
+.navbar-blue .navbar-nav > li > a {
+  color: #fff;
+}
+
+.navbar-blue .navbar-brand:hover,
+.navbar-blue .navbar-nav > li > a:hover {
+  color: #f6af33;
+}
+
+.navbar-blue .navbar-nav > .open > a,
+.navbar-blue .navbar-nav > .open > a:focus,
+.navbar-blue .navbar-nav > .open > a:hover {
+  background-color: #0b6588;
+}
+.navbar-blue .navbar-nav > .active > a,
+.navbar-blue .navbar-nav > .active > a:focus,
+.navbar-blue .navbar-nav > .active > a:hover {
+  background-color: #0b6588;
+}
+
+.navbar-blue .navbar-text,
+.nav .dropdown-header,
+footer {
+  cursor: default;
+}
+
+header {
+  cursor: default;
+  padding: 12px 16px;
+  margin-bottom: 16px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #d5d5d5;
+  box-shadow: inset 0 1px 0 #fff, 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.page-header {
+  margin-top: 0 !important;
+  padding-bottom: 12px !important;
+}
+.page-header .btn-group {
+  margin-top: 3px;
+  line-height: 20px;
+}
+
+@media (max-width: 425px) {
+  .navbar-blue .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff;
+  }
+
+  .page-header {
+    h2 {
+      font-size: 18px;
+      line-height: 29px;
+      letter-spacing: -0.5px;
+      margin: 0;
+      padding-top: 5px;
+    }
+  }
+}
+
+form .date label,
+form .datetime label,
+form .time label,
+form .select label {
+  display: block;
+}
+
+form .select .checkbox label {
+  display: inline-block;
+}
+
+form .date select,
+form .datetime select,
+form .time select,
+form .select select {
+  display: inline;
+  width: auto;
+}
+form .input-select {
+  margin-bottom: 21px;
+}
+form .error {
+  color: #c00;
+  font-size: 12px;
+  display: inline-block;
+  margin-top: 4px;
+}
+form .form-error {
+  display: block;
+  font-size: 11px;
+  color: #c00;
+  margin: -5px 0 12px;
+}
+form .help-block {
+  margin: 2px 0 0;
+}
+form h3 {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 5px 0 15px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+form.search-form {
+  display: none;
+}
+
+form .form-group {
+  clear: both;
+}
+form .form-group-inline {
+  clear: none;
+}
+
+form .btn-now {
+  display: inline-block;
+  font-size: 13px;
+  margin-left: 9px;
+}
+
+form .form-actions {
+  padding-top: 4px;
+  padding-bottom: 9px;
+}
+
+#adsbanners .selectize-control {
+  min-width: 370px;
+  width: 70%;
+}
+
+form .selectize-input,
+form .selectize-control.multi .selectize-input.has-items {
+  padding: 1px 6px;
+}
+
+.table {
+  background: #fff;
+}
+.table th,
+.table td {
+  vertical-align: middle !important;
+}
+.table tr.is_new td {
+  font-weight: bold;
+  color: #444;
+}
+.table tr.todasexta td.td-categoria {
+  font-weight: bold;
+}
+.table th a {
+  display: block;
+}
+.table tbody {
+  tr td span.label {
+    font-size: 11px;
+  }
+}
+.table .actions {
+  text-align: center !important;
+  width: 143px;
+}
+
+.table .tr-preview .preview-image {
+  width: 118px;
+  height: 118px;
+  border: 2px solid #c00;
+}
+
+.control-group {
+  margin-bottom: 2px !important;
+}
+
+.pagination {
+  margin-top: 9px;
+}
+
+.cke_skin_office2003 {
+  margin-bottom: 21px;
+  width: 90%;
+}
+
+.lista-fotos li .thumbnail {
+  position: relative;
+}
+.lista-fotos li .thumbnail .actions {
+  position: absolute;
+  right: 9px;
+  top: 9px;
+}
+
+.x-tree-lines,
+.x-tree-lines ul,
+.x-tree-lines li {
+  list-style: none !important;
+  margin: 0;
+  padding: 0;
+}
+.x-tree .x-panel-body {
+  border: none !important;
+  background: none !important;
+}
+
+.nav-tabs + .tab-content {
+  padding-top: 12px;
+}
+
+.tabs-below > .nav-tabs,
+.tabs-right > .nav-tabs,
+.tabs-left > .nav-tabs {
+  border-bottom: 0;
+}
+
+.tab-content > .tab-pane,
+.pill-content > .pill-pane {
+  display: none;
+}
+
+.tab-content > .active,
+.pill-content > .active {
+  display: block;
+}
+
+.tabs-below > .nav-tabs {
+  border-top: 1px solid #ddd;
+}
+
+.tabs-below > .nav-tabs > li {
+  margin-top: -1px;
+  margin-bottom: 0;
+}
+
+.tabs-below > .nav-tabs > li > a {
+  -webkit-border-radius: 0 0 4px 4px;
+  -moz-border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;
+}
+
+.tabs-below > .nav-tabs > li > a:hover,
+.tabs-below > .nav-tabs > li > a:focus {
+  border-top-color: #ddd;
+  border-bottom-color: transparent;
+}
+
+.tabs-below > .nav-tabs > .active > a,
+.tabs-below > .nav-tabs > .active > a:hover,
+.tabs-below > .nav-tabs > .active > a:focus {
+  border-color: transparent #ddd #ddd #ddd;
+}
+
+.tabs-left > .nav-tabs > li,
+.tabs-right > .nav-tabs > li {
+  float: none;
+}
+
+.tabs-left > .nav-tabs > li > a,
+.tabs-right > .nav-tabs > li > a {
+  min-width: 74px;
+  margin-right: 0;
+  margin-bottom: 3px;
+}
+
+.tabs-left > .nav-tabs {
+  float: left;
+  margin-right: 19px;
+  border-right: 1px solid #ddd;
+}
+
+.tabs-left > .nav-tabs > li > a {
+  margin-right: -1px;
+  -webkit-border-radius: 4px 0 0 4px;
+  -moz-border-radius: 4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
+}
+
+.tabs-left > .nav-tabs > li > a:hover,
+.tabs-left > .nav-tabs > li > a:focus {
+  border-color: #eeeeee #dddddd #eeeeee #eeeeee;
+}
+
+.tabs-left > .nav-tabs .active > a,
+.tabs-left > .nav-tabs .active > a:hover,
+.tabs-left > .nav-tabs .active > a:focus {
+  border-color: #ddd transparent #ddd #ddd;
+  *border-right-color: #ffffff;
+}
+
+.tabs-right > .nav-tabs {
+  float: right;
+  margin-left: 19px;
+  border-left: 1px solid #ddd;
+}
+
+.tabs-right > .nav-tabs > li > a {
+  margin-left: -1px;
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.tabs-right > .nav-tabs > li > a:hover,
+.tabs-right > .nav-tabs > li > a:focus {
+  border-color: #eeeeee #eeeeee #eeeeee #dddddd;
+}
+
+.tabs-right > .nav-tabs .active > a,
+.tabs-right > .nav-tabs .active > a:hover,
+.tabs-right > .nav-tabs .active > a:focus {
+  border-color: #ddd #ddd #ddd transparent;
+  *border-left-color: #ffffff;
+}
+
+footer {
+  border-top: 1px solid #dedede;
+  padding-top: 14px;
+  margin-top: 9px;
+}
+footer p {
+  font-size: 12px !important;
+  cursor: default;
+  color: #666;
+}
+
+/* SECTIONS */
+@import "cmanager.css";
