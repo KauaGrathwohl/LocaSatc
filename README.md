@@ -27,10 +27,10 @@ Scripts SQL separados por tipo:
 - [DDL](https://github.com/KauaGrathwohl/LocaSatc/blob/main/scripts/DDL.sql)
 - [DML](https://github.com/KauaGrathwohl/LocaSatc/blob/main/scripts/DML.sql)
 - [(ou os dois juntos)](https://github.com/KauaGrathwohl/LocaSatc/blob/main/scripts/locasatc.sql)
-- Índice
+- [Índices](https://github.com/KauaGrathwohl/LocaSatc/blob/main/scripts/indices.sql)
 - Trigger
-- Procedures
-- Functions
+- Procedure
+- Function
 
 ## Código fonte do sistema
 - Linguagem de programação - PHP, Javascript
