@@ -13,7 +13,7 @@
 ## Modelo Físico
 Utilizada a ferramento de modelagem de dados https://dbdiagram.io/ para a criação do modelo físico do banco de dados.
 <br></br>
-Arquivo fonte: ([Modelo Físico]([https://dbdiagram.io/d/656b85c156d8064ca041bfba](https://dbdiagram.io/d/Copy-of-Untitled-Diagram-65727d3756d8064ca09e9d98))).
+Arquivo fonte: [Modelo Físico](https://dbdiagram.io/d/Copy-of-Untitled-Diagram-65727d3756d8064ca09e9d98).
 <br></br>
 <img src="https://github.com/KauaGrathwohl/LocaSatc/blob/main/modelo_fisico.png" />
 
