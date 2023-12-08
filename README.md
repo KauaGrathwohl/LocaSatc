@@ -29,7 +29,7 @@ Scripts SQL separados por tipo:
 - [(ou os dois juntos)](https://github.com/KauaGrathwohl/LocaSatc/blob/main/scripts/locasatc.sql)
 - [Índices](https://github.com/KauaGrathwohl/LocaSatc/blob/main/scripts/indices.sql)
 - [Trigger](https://github.com/KauaGrathwohl/LocaSatc/blob/main/scripts/trigger.sql)
-- Procedure
+- [Procedure](https://github.com/KauaGrathwohl/LocaSatc/blob/main/scripts/procedure.sql)
 - [Function](https://github.com/KauaGrathwohl/LocaSatc/blob/main/scripts/function.sql)
 
 ## Código fonte do sistema
